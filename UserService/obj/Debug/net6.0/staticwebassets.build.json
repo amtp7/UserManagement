@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "xUFHtykKZaLNqkx44rUhXztYzbP8qevGPw5MxU38HRg=",
+  "Source": "UserManagement.UserService",
+  "BasePath": "_content/UserManagement.UserService",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

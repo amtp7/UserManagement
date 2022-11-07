@@ -1,0 +1,43 @@
+syntax = "proto3";
+
+option csharp_namespace = "UserManagement.UserService.Protos";
+
+package UsersManagement;
+
+service UsersManagement
+{
+	rpc GetUser (GetUserRequest) returns (GetUserResponse);
+	rpc GetAllUsers (Empty) returns (GetAllUsersResponse);
+	rpc CreateUser (CreateUserRequest) returns (CreateUserResponse); 
+}
+
+message Empty {}
+
+message GetUserRequest 
+{
+	int32 userId = 1;
+}
+
+message GetUserResponse
+{
+	int32 userId = 1;
+	string userName = 2;
+	repeated int32 userRoleIds = 3;
+}
+
+message GetAllUsersResponse
+{
+	repeated GetUserResponse users = 1;
+}
+
+message CreateUserRequest 
+{
+	int32 userId = 1;
+	string userName = 2;
+	repeated int32 userRoleIds = 3;
+}
+
+message CreateUserResponse
+{
+	int32 userId = 1;
+}
