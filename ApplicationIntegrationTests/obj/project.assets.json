@@ -6661,11 +6661,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Git\\Ceiia\\UserManagement\\ApplicationIntegrationTests\\ApplicationIntegrationTests.csproj",
+      "projectUniqueName": "C:\\Git\\UserManagement\\ApplicationIntegrationTests\\ApplicationIntegrationTests.csproj",
       "projectName": "UserManagement.ApplicationIntegrationTests",
-      "projectPath": "C:\\Git\\Ceiia\\UserManagement\\ApplicationIntegrationTests\\ApplicationIntegrationTests.csproj",
+      "projectPath": "C:\\Git\\UserManagement\\ApplicationIntegrationTests\\ApplicationIntegrationTests.csproj",
       "packagesPath": "C:\\Users\\amtp1\\.nuget\\packages\\",
-      "outputPath": "C:\\Git\\Ceiia\\UserManagement\\ApplicationIntegrationTests\\obj\\",
+      "outputPath": "C:\\Git\\UserManagement\\ApplicationIntegrationTests\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\amtp1\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -10,3 +10,15 @@ C:\Git\Ceiia\UserManagement\Domain\obj\Debug\net6.0\UserManagement.Domain.dll
 C:\Git\Ceiia\UserManagement\Domain\obj\Debug\net6.0\refint\UserManagement.Domain.dll
 C:\Git\Ceiia\UserManagement\Domain\obj\Debug\net6.0\UserManagement.Domain.pdb
 C:\Git\Ceiia\UserManagement\Domain\obj\Debug\net6.0\ref\UserManagement.Domain.dll
+C:\Git\UserManagement\Domain\bin\Debug\net6.0\UserManagement.Domain.deps.json
+C:\Git\UserManagement\Domain\bin\Debug\net6.0\UserManagement.Domain.dll
+C:\Git\UserManagement\Domain\bin\Debug\net6.0\UserManagement.Domain.pdb
+C:\Git\UserManagement\Domain\obj\Debug\net6.0\Domain.csproj.AssemblyReference.cache
+C:\Git\UserManagement\Domain\obj\Debug\net6.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Git\UserManagement\Domain\obj\Debug\net6.0\Domain.AssemblyInfoInputs.cache
+C:\Git\UserManagement\Domain\obj\Debug\net6.0\Domain.AssemblyInfo.cs
+C:\Git\UserManagement\Domain\obj\Debug\net6.0\Domain.csproj.CoreCompileInputs.cache
+C:\Git\UserManagement\Domain\obj\Debug\net6.0\UserManagement.Domain.dll
+C:\Git\UserManagement\Domain\obj\Debug\net6.0\refint\UserManagement.Domain.dll
+C:\Git\UserManagement\Domain\obj\Debug\net6.0\UserManagement.Domain.pdb
+C:\Git\UserManagement\Domain\obj\Debug\net6.0\ref\UserManagement.Domain.dll

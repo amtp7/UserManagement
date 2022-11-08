@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Git\\Ceiia\\UserManagement\\ApplicationUnitTests\\ApplicationUnitTests.csproj": {}
+    "C:\\Git\\UserManagement\\ApplicationUnitTests\\ApplicationUnitTests.csproj": {}
   },
   "projects": {
-    "C:\\Git\\Ceiia\\UserManagement\\ApplicationUnitTests\\ApplicationUnitTests.csproj": {
+    "C:\\Git\\UserManagement\\ApplicationUnitTests\\ApplicationUnitTests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Git\\Ceiia\\UserManagement\\ApplicationUnitTests\\ApplicationUnitTests.csproj",
+        "projectUniqueName": "C:\\Git\\UserManagement\\ApplicationUnitTests\\ApplicationUnitTests.csproj",
         "projectName": "UserManagement.ApplicationUnitTests",
-        "projectPath": "C:\\Git\\Ceiia\\UserManagement\\ApplicationUnitTests\\ApplicationUnitTests.csproj",
+        "projectPath": "C:\\Git\\UserManagement\\ApplicationUnitTests\\ApplicationUnitTests.csproj",
         "packagesPath": "C:\\Users\\amtp1\\.nuget\\packages\\",
-        "outputPath": "C:\\Git\\Ceiia\\UserManagement\\ApplicationUnitTests\\obj\\",
+        "outputPath": "C:\\Git\\UserManagement\\ApplicationUnitTests\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\amtp1\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -29,8 +29,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Git\\Ceiia\\UserManagement\\Application\\Application.csproj": {
-                "projectPath": "C:\\Git\\Ceiia\\UserManagement\\Application\\Application.csproj"
+              "C:\\Git\\UserManagement\\Application\\Application.csproj": {
+                "projectPath": "C:\\Git\\UserManagement\\Application\\Application.csproj"
               }
             }
           }
@@ -90,14 +90,14 @@
         }
       }
     },
-    "C:\\Git\\Ceiia\\UserManagement\\Application\\Application.csproj": {
+    "C:\\Git\\UserManagement\\Application\\Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Git\\Ceiia\\UserManagement\\Application\\Application.csproj",
+        "projectUniqueName": "C:\\Git\\UserManagement\\Application\\Application.csproj",
         "projectName": "UserManagement.Application",
-        "projectPath": "C:\\Git\\Ceiia\\UserManagement\\Application\\Application.csproj",
+        "projectPath": "C:\\Git\\UserManagement\\Application\\Application.csproj",
         "packagesPath": "C:\\Users\\amtp1\\.nuget\\packages\\",
-        "outputPath": "C:\\Git\\Ceiia\\UserManagement\\Application\\obj\\",
+        "outputPath": "C:\\Git\\UserManagement\\Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\amtp1\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -115,8 +115,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Git\\Ceiia\\UserManagement\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Git\\Ceiia\\UserManagement\\Domain\\Domain.csproj"
+              "C:\\Git\\UserManagement\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Git\\UserManagement\\Domain\\Domain.csproj"
               }
             }
           }
@@ -160,14 +160,14 @@
         }
       }
     },
-    "C:\\Git\\Ceiia\\UserManagement\\Domain\\Domain.csproj": {
+    "C:\\Git\\UserManagement\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Git\\Ceiia\\UserManagement\\Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\Git\\UserManagement\\Domain\\Domain.csproj",
         "projectName": "UserManagement.Domain",
-        "projectPath": "C:\\Git\\Ceiia\\UserManagement\\Domain\\Domain.csproj",
+        "projectPath": "C:\\Git\\UserManagement\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\amtp1\\.nuget\\packages\\",
-        "outputPath": "C:\\Git\\Ceiia\\UserManagement\\Domain\\obj\\",
+        "outputPath": "C:\\Git\\UserManagement\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\amtp1\\AppData\\Roaming\\NuGet\\NuGet.Config",

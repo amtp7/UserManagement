@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Git\\Ceiia\\UserManagement\\Domain\\Domain.csproj",
+      "projectUniqueName": "C:\\Git\\UserManagement\\Domain\\Domain.csproj",
       "projectName": "UserManagement.Domain",
-      "projectPath": "C:\\Git\\Ceiia\\UserManagement\\Domain\\Domain.csproj",
+      "projectPath": "C:\\Git\\UserManagement\\Domain\\Domain.csproj",
       "packagesPath": "C:\\Users\\amtp1\\.nuget\\packages\\",
-      "outputPath": "C:\\Git\\Ceiia\\UserManagement\\Domain\\obj\\",
+      "outputPath": "C:\\Git\\UserManagement\\Domain\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\amtp1\\AppData\\Roaming\\NuGet\\NuGet.Config",
