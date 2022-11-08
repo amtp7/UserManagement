@@ -141,6 +141,19 @@
           "build/Grpc.Tools.targets": {}
         }
       },
+      "GrpcClient/1.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Google.Protobuf": "3.21.9",
+          "Grpc.Net.Client": "2.49.0"
+        },
+        "compile": {
+          "lib/net6.0/GrpcClient.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/GrpcClient.dll": {}
+        }
+      },
       "MediatR/11.0.0": {
         "type": "package",
         "dependencies": {
@@ -381,6 +394,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
+          "GrpcClient": "1.0.0",
           "UserManagement.Application": "1.0.0"
         },
         "compile": {
@@ -624,6 +638,17 @@
         "tools/windows_x64/protoc.exe",
         "tools/windows_x86/grpc_csharp_plugin.exe",
         "tools/windows_x86/protoc.exe"
+      ]
+    },
+    "GrpcClient/1.0.0": {
+      "sha512": "p8oFTKUmN/wyWCUDsT5dOO5RbgugSJYa2KuDRquvLy+G6uTN2wN7YJoxrmJr2FIv07mHJCUrxc0Meca7I1mYaw==",
+      "type": "package",
+      "path": "grpcclient/1.0.0",
+      "files": [
+        ".nupkg.metadata",
+        "grpcclient.1.0.0.nupkg.sha512",
+        "grpcclient.nuspec",
+        "lib/net6.0/GrpcClient.dll"
       ]
     },
     "MediatR/11.0.0": {
@@ -907,7 +932,7 @@
         "net6.0"
       ],
       "sources": {
-        "C:\\Git\\Ceiia\\ClientgRPC\\ClientgRPC\\bin\\Release": {},
+        "C:\\Git\\Ceiia\\AuthorizationManagement\\GrpcClient\\bin\\Release": {},
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },

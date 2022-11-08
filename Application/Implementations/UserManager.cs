@@ -7,21 +7,27 @@ namespace UserManagement.Application.Implementations
     public class UserManager : IUserManager
     {
         private readonly IUserRepositoryMock _userRepositoryMock;
+        private readonly IAuthorizationClient _authorizationClient;
 
-        public UserManager(IUserRepositoryMock userRepositoryMock)
+        public UserManager(IUserRepositoryMock userRepositoryMock, IAuthorizationClient authorizationClient)
         {
             _userRepositoryMock = userRepositoryMock;
+            _authorizationClient = authorizationClient;
         }
 
         public async Task<int> CreateUser(UserDTO newUser)
         {
-            var users = _userRepositoryMock.GetAllUsers().Result;
+            var user = _userRepositoryMock.GetUser(newUser.Id).Result;
 
-            if (newUser != null && users.SingleOrDefault(user => user.Id == newUser.Id || user.Name == newUser.Name) == null)
+            if (user == null)
             {
-                await _userRepositoryMock.CreateUser(newUser.ToDomain());
+                var authorization = await _authorizationClient.GetRolesAuthorization(newUser.RoleIds);
+                if (authorization == "Authorized")
+                {
+                    return await _userRepositoryMock.CreateUser(newUser.ToDomain());                  
+                }             
             }
-            return (await _userRepositoryMock.GetUser(newUser.Id)).Id;
+            return -1;
         }
 
         public async Task<IEnumerable<UserDTO?>> GetAllUsers()

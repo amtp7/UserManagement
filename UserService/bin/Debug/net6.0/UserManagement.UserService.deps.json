@@ -106,6 +106,18 @@
         }
       },
       "Grpc.Tools/2.50.0": {},
+      "GrpcClient/1.0.0": {
+        "dependencies": {
+          "Google.Protobuf": "3.21.9",
+          "Grpc.Net.Client": "2.49.0"
+        },
+        "runtime": {
+          "lib/net6.0/GrpcClient.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
       "MediatR/11.0.0": {
         "dependencies": {
           "MediatR.Contracts": "1.0.1"
@@ -199,6 +211,7 @@
       },
       "UserManagement.Infrastructure/1.0.0": {
         "dependencies": {
+          "GrpcClient": "1.0.0",
           "UserManagement.Application": "1.0.0"
         },
         "runtime": {
@@ -275,6 +288,13 @@
       "sha512": "sha512-EPp2aQpoBOvzmhLqipNwk88nf3IVQ0G0DhdSlekYHGPOUCgtcqcEzD3OIWUfQPisSYxMY2HC1sQJm6Li1sVOTw==",
       "path": "grpc.tools/2.50.0",
       "hashPath": "grpc.tools.2.50.0.nupkg.sha512"
+    },
+    "GrpcClient/1.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-p8oFTKUmN/wyWCUDsT5dOO5RbgugSJYa2KuDRquvLy+G6uTN2wN7YJoxrmJr2FIv07mHJCUrxc0Meca7I1mYaw==",
+      "path": "grpcclient/1.0.0",
+      "hashPath": "grpcclient.1.0.0.nupkg.sha512"
     },
     "MediatR/11.0.0": {
       "type": "package",

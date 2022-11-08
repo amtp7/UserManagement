@@ -28,10 +28,11 @@ namespace UserManagement.Infrastructure.UserRepositoryMock
             return await Task.FromResult(users);
         }
 
-        public async Task CreateUser(User user)
+        public async Task<int> CreateUser(User user)
         {
             users.Add(user);
             await Task.CompletedTask;
+            return user.Id;
         }
     }
 }

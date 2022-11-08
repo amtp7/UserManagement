@@ -36,3 +36,4 @@ C:\Git\Ceiia\UserManagement\UserService\obj\Debug\net6.0\refint\UserManagement.U
 C:\Git\Ceiia\UserManagement\UserService\obj\Debug\net6.0\UserManagement.UserService.pdb
 C:\Git\Ceiia\UserManagement\UserService\obj\Debug\net6.0\UserService.genruntimeconfig.cache
 C:\Git\Ceiia\UserManagement\UserService\obj\Debug\net6.0\ref\UserManagement.UserService.dll
+C:\Git\Ceiia\UserManagement\UserService\bin\Debug\net6.0\GrpcClient.dll
